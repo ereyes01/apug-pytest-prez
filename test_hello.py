@@ -18,4 +18,5 @@ def test_hello(test_client):
     WHEN: I GET the hello/ route
     THEN: The response should be "hello world"
     """
-    assert True
+    response = test_client.get("/hello")
+    assert response.data.decode("utf-8") == "hello world"
