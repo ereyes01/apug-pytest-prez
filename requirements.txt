@@ -5,3 +5,4 @@ Werkzeug==0.9.6
 itsdangerous==0.24
 py==1.4.26
 pytest==2.6.4
+requests==2.5.1
