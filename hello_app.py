@@ -14,3 +14,7 @@ def hello():
 def hacker_news_encoding():
     response = requests.get("https://news.ycombinator.com")
     return response.headers["Content-Encoding"]
+
+
+if __name__ == "__main__":
+	app.run()
