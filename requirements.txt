@@ -1,8 +1,9 @@
 Flask==0.10.1
+gunicorn==19.6.0
+itsdangerous==0.24
 Jinja2==2.7.3
 MarkupSafe==0.23
-Werkzeug==0.9.6
-itsdangerous==0.24
 py==1.4.26
 pytest==2.6.4
 requests==2.5.1
+Werkzeug==0.9.6
