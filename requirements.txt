@@ -1,9 +1,13 @@
+attrs==17.4.0
 Flask==0.10.1
 gunicorn==19.6.0
 itsdangerous==0.24
 Jinja2==2.7.3
 MarkupSafe==0.23
-py==1.4.26
-pytest==2.6.4
+more-itertools==4.1.0
+pluggy==0.6.0
+py==1.5.3
+pytest==3.5.0
 requests==2.5.1
+six==1.11.0
 Werkzeug==0.9.6
